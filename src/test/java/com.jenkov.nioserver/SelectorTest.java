@@ -1,5 +1,6 @@
 package com.jenkov.nioserver;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -14,6 +15,7 @@ import java.nio.channels.SocketChannel;
 public class SelectorTest {
 
     @Test
+    @Ignore
     public void test() throws IOException {
         Selector selector = Selector.open();
 
